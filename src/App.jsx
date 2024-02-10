@@ -5,7 +5,7 @@ import { AiFillTwitterCircle, AiFillLinkedin, AiFillGithub } from "react-icons/a
 import heroimage from "../public/dev-ed-wave.png";
 import one from "../public/web1.png";
 import two from "../public/web2.png";
-import three from "../public/web3.png";
+import three from "../public/screen.jpg";
 
 function App() {
   const [DarkMode, setDarkMode] = useState(false);
@@ -16,10 +16,11 @@ function App() {
       <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-black'>
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
-            <span className='p-3 border border-gray-800 rounded-3xl cursor-pointer text-xl'  onClick={() => setDarkMode(!DarkMode)}>{DarkMode ? (<BsFillSunFill/>) : (<BsFillMoonStarsFill />)}</span>
+            <span className={ DarkMode ? 'text-white p-3 text-xl' : 'text-black p-3 text-xl '  } >P O R T F O L I O</span>
+
             <ul className='flex items-center gap-8'>
 
-
+            <li className='p-3 bg-black rounded-3xl cursor-pointer text-xl' onClick={() => setDarkMode(!DarkMode)}>{DarkMode ? (<BsFillSunFill color='yellow' size={30} />) : (<BsFillMoonStarsFill color='orange' />)}</li>
               <li className='bg-green-600 text-white px-4 py-2 rounded'>Resume</li>
             </ul>
           </nav>
@@ -40,26 +41,8 @@ function App() {
             <img src={heroimage} alt="" className='object-cover' />
           </div>
         </section>
+        <br /><br />
 
-        <section>
-          <div className='flex flex-col gap-10 py-10 md:flex-row md:flex-wrap'>
-            <div className='basis-1/3 flex-1'>
-              <img src={one} alt="" className='object-cover' width={'100%'} height={'100%'} />
-            </div>
-
-            <div className='basis-1/3 flex-1'>
-              <img src={two} alt="" className='object-cover' width={'100%'} height={'100%'} />
-            </div>
-
-            <div className='basis-1/3 flex-1'>
-              <img src={three} alt="" className='object-cover' width={'100%'} height={'100%'} />
-            </div>
-
-
-          </div>
-
-
-        </section>
       </main>
     </div>
   )
