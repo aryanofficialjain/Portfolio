@@ -16,7 +16,8 @@ function App() {
       <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-black'>
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
-            <span className={ DarkMode ? 'text-white p-3 text-xl' : 'text-black p-3 text-xl '  } >P O R T F O L I O</span>
+            <span className={ DarkMode ? 'text-white p-3 text-sm md:text-xl ' : 'text-black p-3  text-sm md:text-xl '  } >P O R T F O L I O</span>
+
 
             <ul className='flex items-center gap-8'>
 
