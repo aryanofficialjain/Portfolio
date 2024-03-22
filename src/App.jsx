@@ -8,12 +8,12 @@ import { GrNode } from "react-icons/gr";
 import { SiExpress } from "react-icons/si";
 import { BiLogoMongodb } from "react-icons/bi";
 import { BiLogoTypescript } from "react-icons/bi";
-import heroimage from "../public/dev-ed-wave.png";
-import one from "../public/3d.jpg";
-import two from "../public/google.jpg";
-import three from "../public/ecommerce.jpg";
-import four from "../public/crypton.jpg";
-import five from "../public/spend-billion.jpg";
+import heroimage from "/dev-ed-wave.png";
+import one from "/3d.jpg";
+import two from "/google.jpg";
+import three from "/ecommerce.jpg";
+import four from "/crypton.jpg";
+import five from "/spend-billion.jpg";
 
 function App() {
   const [DarkMode, setDarkMode] = useState(false);
@@ -55,8 +55,8 @@ function App() {
           </div>
 
 
-          <div className='relative bg-gradient-to-b from-green-600 rounded-full w-80 h-80 mt-20 mx-auto md:w-96 md:h-96'>
-            <img src={heroimage} alt="" className='object-cover' />
+          <div className=' bg-gradient-to-b from-green-600 rounded-full w-60 text-center h-80 mt-20 mx-auto md:w-96 md:h-96'>
+            <img src={heroimage} alt="" className='' />
           </div>
         </section>
         <br /><br />
