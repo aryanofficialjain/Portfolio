@@ -29,7 +29,7 @@ function App() {
 
             <ul className='flex items-center gap-8'>
 
-              <li className='p-3 bg-black rounded-3xl cursor-pointer text-xl' onClick={() => setDarkMode(!DarkMode)}>{DarkMode ? (<BsFillSunFill color='yellow' size={30} />) : (<BsFillMoonStarsFill color='orange' />)}</li>
+              <li className='p-3 bg-black rounded-3xl cursor-pointer text-xl' onClick={() => setDarkMode(!DarkMode)}>{DarkMode ? (<BsFillSunFill color='white' size={30} />) : (<BsFillMoonStarsFill color='white' />)}</li>
 
             </ul>
           </nav>
