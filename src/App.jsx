@@ -54,16 +54,16 @@ function App() {
             </p>
           </div>
 
-
+{/* 
           <div className=' bg-gradient-to-b from-green-600 rounded-full w-60 text-center h-80 mt-20 mx-auto md:w-96 md:h-96'>
             <img src={heroimage} alt="" className='' />
-          </div>
+          </div> */}
         </section>
-        <br /><br />
+       
 
-        <h2 className='text-center p-6 text-2xl md:text-5xl dark:text-white'>Web Apps</h2>
+        {/* <h2 className='text-center p-6 text-2xl md:text-5xl dark:text-white'>Web Apps</h2> */}
 
-        <section className='flex flex-col  flex-wrap gap-12 pb-12 items-center w-[100%] mx-auto justify-center mt-8 '>
+        <section className='flex flex-col mt-[-200px]  flex-wrap gap-12 pb-12 items-center w-[100%] mx-auto justify-center mt-8 '>
           <a href="https://futuristic-3-d-website.vercel.app/" target='_blank'><img className='w-full  rounded-3xl  shadow-xl hover:shadow-2xl' src={one} alt="" /></a>
           <a href="https://searchify-mu.vercel.app" target='_blank'><img className='w-full  rounded-3xl shadow-xl hover:shadow-2xl ' src={two} alt="" /></a>
           <a href="https://react-ecommerce-store-bay.vercel.app" target='_blank'><img className='w-full  rounded-3xl shadow-xl hover:shadow-2xl ' src={three} alt="" /></a>
