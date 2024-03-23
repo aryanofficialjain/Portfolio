@@ -63,7 +63,7 @@ function App() {
 
         {/* <h2 className='text-center p-6 text-2xl md:text-5xl dark:text-white'>Web Apps</h2> */}
 
-        <section className='flex flex-col mt-[-200px]  flex-wrap gap-12 pb-12 items-center w-[100%] mx-auto justify-center mt-8 '>
+        <section className='flex flex-col sm:mt-[-200px] mt-[-400px]  flex-wrap gap-12 pb-12 items-center w-[100%] mx-auto justify-center mt-8 '>
           <a href="https://futuristic-3-d-website.vercel.app/" target='_blank'><img className='w-full  rounded-3xl  shadow-xl hover:shadow-2xl' src={one} alt="" /></a>
           <a href="https://searchify-mu.vercel.app" target='_blank'><img className='w-full  rounded-3xl shadow-xl hover:shadow-2xl ' src={two} alt="" /></a>
           <a href="https://react-ecommerce-store-bay.vercel.app" target='_blank'><img className='w-full  rounded-3xl shadow-xl hover:shadow-2xl ' src={three} alt="" /></a>
