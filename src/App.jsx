@@ -42,7 +42,7 @@ function App() {
             <a href="https://twitter.com/jaryanofficial" target='_blank'><AiFillTwitterCircle className='dark:text-white' /></a>
           </div>
             <h1 className='text-3xl  py-2 text-green-600 font-medium md:text-4xl '>Aryan Jain</h1>
-            <h2 className='text-xl py-2 md:text-5xl dark:text-white '>Full Stack Developer</h2>
+            <h2 className='text-xl py-2 text-4xl md:text-5xl dark:text-white '>Full Stack Developer</h2>
             <p className=' flex gap-3 items-center justify-center mt-4 text-3xl dark:text-white'>
             <SiExpress />
             <BiLogoReact />
