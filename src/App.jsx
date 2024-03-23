@@ -8,12 +8,12 @@ import { GrNode } from "react-icons/gr";
 import { SiExpress } from "react-icons/si";
 import { BiLogoMongodb } from "react-icons/bi";
 import { BiLogoTypescript } from "react-icons/bi";
-import heroimage from "../public/dev-ed-wave.png";
-import one from "../public/3d.jpg";
-import two from "../public/google.jpg";
-import three from "../public/ecommerce.jpg";
-import four from "../public/crypton.jpg";
-import five from "../public/spend-billion.jpg";
+import heroimage from "/dev-ed-wave.png";
+import one from "/3d.jpg";
+import two from "/google.jpg";
+import three from "/ecommerce.jpg";
+import four from "/crypton.jpg";
+import five from "/spend-billion.jpg";
 
 function App() {
   const [DarkMode, setDarkMode] = useState(false);
@@ -63,7 +63,7 @@ function App() {
 
         <h2 className='text-center p-6 text-2xl md:text-5xl dark:text-white'>Web Apps</h2>
 
-        <section className='flex flex-col md:flex-row flex-wrap gap-12 pb-12 items-center w-[100%] mx-auto justify-center mt-8 '>
+        <section className='flex flex-col  flex-wrap gap-12 pb-12 items-center w-[100%] mx-auto justify-center mt-8 '>
           <a href="https://futuristic-3-d-website.vercel.app/" target='_blank'><img className='w-full  rounded-3xl  shadow-xl hover:shadow-2xl' src={one} alt="" /></a>
           <a href="https://searchify-mu.vercel.app" target='_blank'><img className='w-full  rounded-3xl shadow-xl hover:shadow-2xl ' src={two} alt="" /></a>
           <a href="https://react-ecommerce-store-bay.vercel.app" target='_blank'><img className='w-full  rounded-3xl shadow-xl hover:shadow-2xl ' src={three} alt="" /></a>
